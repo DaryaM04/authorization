@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AuthorizationForm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" class="form">
+            <div class="containerLogo">
+                <div class="image"><img src="img/logo.png" alt="logo"></div>
+                <h1 class="head">Авторизация</h1>
+            </div>
+
+            <div class="containerText">
+                <div class="input-box inputUser">
+                    <img src="img/user.svg" alt="user" class="inputImg">
+                    <input id="userName" type="text" placeholder="Email или телефон" required>
+                </div>
+                <div class="input-box inputPassword">
+                    <img src="img/password.svg" alt="password" class="inputImg">
+                    <input id="password" type="password" placeholder="Пароль" required>
+                </div>
+                <p class="errorText"></p>
+                <button type="submit" class="btn">Войти</button>
+            </div>
+        </form>
+    </div>
+    
+
+
+    <script src="main.js"></script>
+</body>
+</html>
